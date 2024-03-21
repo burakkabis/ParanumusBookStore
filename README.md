@@ -7,7 +7,7 @@
 
 
 
-<p id="description">Musteri tiplerini ise Enum yapisini kullanarak icersinde PremiumRegular ve Employee musterilerini tanimladim.</p>
+<p id="description">Musteri tiplerini ise Enum yapisini kullanarak icerisinde PremiumRegular ve Employee musterilerini tanimladim.</p>
 
 
 <p id="description">Business katmaninda ise BookStoreManager is sinifini olusturup bu sinifin icersinde HandlePurchase() ve CalculateDiscount() methodlarini tanimladim.</p>
@@ -17,19 +17,19 @@
 
 
 
-<p id="description">HandlePurchase() metodu ise PurchaseRequest nesnesini parametre olarak alip OriginalPriceDiscountedAmount ve FinalPrice i geri donduruyor.</p>
+<p id="description">HandlePurchase() metodu ise PurchaseRequest nesnesini parametre olarak alip OriginalPrice, DiscountedAmount ve FinalPrice i geri donduruyor.</p>
 
 ### <p id="description">Program.cs de ise;</p>
 
 
 
-<p id="description">Book classi turunden 2 tane book nesnesi olusturup bir books listesine ekliyorum.Daha sonra PurchaseRequest nesnesi olusturup customerTypebooks ve totalAmount degerlerini veriyorum.</p>
+<p id="description">Book classi turunden 2 tane book nesnesi olusturup bir books listesine ekliyorum.Daha sonra PurchaseRequest nesnesi olusturup , customerType, books ve totalAmount degerlerini veriyorum.</p>
 
 
 
 
 
-<p id="description">Son olarak BookStoreManager nesnesini olusturup icerisinde bulunan HandlePurchase metoduna olusturmus oldugum purchaseRequest parametetresini verip PurchaseResponse turunden response degerine atip ConsoleWriteline metodu ile response icerisinde bulunan OriginalPriceDiscountedAmount ve FinalPrice i ekrana yazdiriyorum.</p>
+<p id="description">Son olarak BookStoreManager nesnesini olusturup icerisinde bulunan HandlePurchase metoduna, olusturmus oldugum purchaseRequest parametetresini verip, PurchaseResponse turunden response degerine atip, ConsoleWriteline metodu ile response icerisinde bulunan OriginalPrice,DiscountedAmount ve FinalPrice'i ekrana yazdiriyorum.</p>
 
 
 
